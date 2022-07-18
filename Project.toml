@@ -1,6 +1,6 @@
 name = "PTSCOTCH_jll"
 uuid = "b3ec0f5a-9838-5c9b-9e77-5f2c6a4b089f"
-version = "6.1.4+0"
+version = "6.1.4+1"
 
 [deps]
 MPIPreferences = "3da0fdf6-3ccc-4f1b-acd9-58baa6c99267"
