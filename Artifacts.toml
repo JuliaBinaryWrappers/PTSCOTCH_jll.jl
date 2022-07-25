@@ -1,243 +1,386 @@
 [[PTSCOTCH]]
 arch = "aarch64"
-git-tree-sha1 = "7f26abdb75a4ca0e00015306dda7eb1a20add3df"
+git-tree-sha1 = "0c37ddb23fc709aa592d30c6bff0656c160e6bf1"
 lazy = true
 mpi = "mpich"
 os = "macos"
 
     [[PTSCOTCH.download]]
-    sha256 = "eab1e6f498e7cf8448e0cabf8f0972ee5f257fd6e427ccd7af3b3c000208012f"
-    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.4+1/PTSCOTCH.v6.1.4.aarch64-apple-darwin-mpi+mpich.tar.gz"
+    sha256 = "e2acda5c4ca17343a77a24bd2a8dcb8d28109b2b831d07acd39f6c37c88016b1"
+    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.5+0/PTSCOTCH.v6.1.5.aarch64-apple-darwin-mpi+mpich.tar.gz"
 [[PTSCOTCH]]
 arch = "aarch64"
-git-tree-sha1 = "b14534e045ebf3874583a6ab3d61fcfca70d026c"
+git-tree-sha1 = "729f51481d6512f503f2fb7694cfb7efbbf21ad4"
 lazy = true
 mpi = "mpitrampoline"
 os = "macos"
 
     [[PTSCOTCH.download]]
-    sha256 = "f6519e846c66f3718c038f8a61fac93193b48790e6a57b6381ddb9922deac518"
-    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.4+1/PTSCOTCH.v6.1.4.aarch64-apple-darwin-mpi+mpitrampoline.tar.gz"
+    sha256 = "a42cf4d8a817883fb5feb026f56f41ba559cfe95bce931422181d37c4d867de4"
+    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.5+0/PTSCOTCH.v6.1.5.aarch64-apple-darwin-mpi+mpitrampoline.tar.gz"
 [[PTSCOTCH]]
 arch = "aarch64"
-git-tree-sha1 = "5c79a8f4e5a1b6e24246e693d94b27bfcef3cfa1"
+git-tree-sha1 = "f70af83fe10f138354fa293114bc95488ab8589f"
+lazy = true
+mpi = "openmpi"
+os = "macos"
+
+    [[PTSCOTCH.download]]
+    sha256 = "162981519ac371f0793da50f44cd80182fd2554f307a083212a98227b244b47e"
+    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.5+0/PTSCOTCH.v6.1.5.aarch64-apple-darwin-mpi+openmpi.tar.gz"
+[[PTSCOTCH]]
+arch = "aarch64"
+git-tree-sha1 = "b9c78dda33850e1dc4b2e02e89b606586714c41f"
 lazy = true
 libc = "glibc"
 mpi = "mpich"
 os = "linux"
 
     [[PTSCOTCH.download]]
-    sha256 = "e0bbec6b872b37581c59bde320ddc9f7c3a7ab37ad3da37c5b6e697707b4b12f"
-    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.4+1/PTSCOTCH.v6.1.4.aarch64-linux-gnu-mpi+mpich.tar.gz"
+    sha256 = "84f2f613af475a080a3633cdcf59752ed65111396c59180861042fc83f9eabdd"
+    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.5+0/PTSCOTCH.v6.1.5.aarch64-linux-gnu-mpi+mpich.tar.gz"
 [[PTSCOTCH]]
 arch = "aarch64"
-git-tree-sha1 = "f580de4f610a6f6fd51d8e378cbc162da6a6ef93"
+git-tree-sha1 = "dddb64613f2c76a196aaa6806e4214d329aa7ced"
 lazy = true
 libc = "glibc"
 mpi = "mpitrampoline"
 os = "linux"
 
     [[PTSCOTCH.download]]
-    sha256 = "4e0bfd5a6465f6be3d028a35e4e0124e0b9ce27b33254aade0975535e0e5756e"
-    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.4+1/PTSCOTCH.v6.1.4.aarch64-linux-gnu-mpi+mpitrampoline.tar.gz"
+    sha256 = "fc575e67a2ecd2d9b88049bb7ea425d95e3447d2fa435ce71ead6eb62fd0facb"
+    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.5+0/PTSCOTCH.v6.1.5.aarch64-linux-gnu-mpi+mpitrampoline.tar.gz"
 [[PTSCOTCH]]
 arch = "aarch64"
-git-tree-sha1 = "15035585fedf9c873b8c3c0e87fe2dfa6ec9c112"
+git-tree-sha1 = "ed36cce16acd64fd4466f8e9af5543f257c4c92f"
+lazy = true
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[PTSCOTCH.download]]
+    sha256 = "e230c5daa4e5e682db582d0d0ad4c57f1e18ab4ea891e4bd4be6e7ccc4884ede"
+    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.5+0/PTSCOTCH.v6.1.5.aarch64-linux-gnu-mpi+openmpi.tar.gz"
+[[PTSCOTCH]]
+arch = "aarch64"
+git-tree-sha1 = "b9fd10b7abbf271a081e3051c63623fe9d743f22"
 lazy = true
 libc = "musl"
 mpi = "mpich"
 os = "linux"
 
     [[PTSCOTCH.download]]
-    sha256 = "60f670ae2fbc4d71cb9e03ba45ac0fe017b586bf37ee73e7981c05f076712328"
-    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.4+1/PTSCOTCH.v6.1.4.aarch64-linux-musl-mpi+mpich.tar.gz"
+    sha256 = "8f60f1cc660689df90664bce8fa897b2bdba7723ff5b0018ad1345aab83fcb4d"
+    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.5+0/PTSCOTCH.v6.1.5.aarch64-linux-musl-mpi+mpich.tar.gz"
+[[PTSCOTCH]]
+arch = "aarch64"
+git-tree-sha1 = "a0d72c6bd71af152718d616719d5ad8344f09ee8"
+lazy = true
+libc = "musl"
+mpi = "openmpi"
+os = "linux"
+
+    [[PTSCOTCH.download]]
+    sha256 = "06dc237ebb0903367da19be65bb5f24da45eafad6e607ddc98915a2b2790dc0e"
+    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.5+0/PTSCOTCH.v6.1.5.aarch64-linux-musl-mpi+openmpi.tar.gz"
 [[PTSCOTCH]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "81e4b4b7a2c3a021612acdcc78a5a08a37d870ea"
+git-tree-sha1 = "b90f0b496330cd14c211c6a5d74cb9fcf5b91a07"
 lazy = true
 libc = "glibc"
 mpi = "mpich"
 os = "linux"
 
     [[PTSCOTCH.download]]
-    sha256 = "d443afebd649788aa5ae1ccd06544f890dd0b3ab0a728dae3f9f69b51107bea0"
-    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.4+1/PTSCOTCH.v6.1.4.armv6l-linux-gnueabihf-mpi+mpich.tar.gz"
+    sha256 = "4c1b0a2f6b7f4bc2bb4f32d0fd29e1fe7ddb618e1da243d0c822bbcae7feb10f"
+    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.5+0/PTSCOTCH.v6.1.5.armv6l-linux-gnueabihf-mpi+mpich.tar.gz"
 [[PTSCOTCH]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "85b3674e2eb457a20faddc63ea7ba3f6988b0b7a"
+git-tree-sha1 = "964850feb24a5d71e846e5feb085aae28f664d59"
 lazy = true
 libc = "glibc"
 mpi = "mpitrampoline"
 os = "linux"
 
     [[PTSCOTCH.download]]
-    sha256 = "e365d3bb73beffa41d2be15515384835824fe693236a654932b24bfc428a0789"
-    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.4+1/PTSCOTCH.v6.1.4.armv6l-linux-gnueabihf-mpi+mpitrampoline.tar.gz"
+    sha256 = "bf3803bd84b56329efd3738c29f9b426e2f9feec034f99ae2661a6fdcf30bd2a"
+    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.5+0/PTSCOTCH.v6.1.5.armv6l-linux-gnueabihf-mpi+mpitrampoline.tar.gz"
 [[PTSCOTCH]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "b5c6abbfde319499e9a57b68aadafdfceff6d733"
+git-tree-sha1 = "7157768942d6f266885cbb5c9e1aed9b4a445709"
 lazy = true
 libc = "musl"
 mpi = "mpich"
 os = "linux"
 
     [[PTSCOTCH.download]]
-    sha256 = "6180a9dd1c9052aac7d9dc7e9768eff69dc89dc655e9d4b7d295c1bd19560d3a"
-    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.4+1/PTSCOTCH.v6.1.4.armv6l-linux-musleabihf-mpi+mpich.tar.gz"
+    sha256 = "323393f281338d0f5c1dd9f9a762d8413c7592d984c704c71d148ae507d66f4b"
+    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.5+0/PTSCOTCH.v6.1.5.armv6l-linux-musleabihf-mpi+mpich.tar.gz"
+[[PTSCOTCH]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "5a16e10738d559b290e2a91cc5fd76ff580ea7d8"
+lazy = true
+libc = "musl"
+mpi = "openmpi"
+os = "linux"
+
+    [[PTSCOTCH.download]]
+    sha256 = "85fc5c52438e4ea450fec2ad6923046366310a88ddaab9464cc71ec6a3d92a13"
+    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.5+0/PTSCOTCH.v6.1.5.armv6l-linux-musleabihf-mpi+openmpi.tar.gz"
 [[PTSCOTCH]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "bd28dd0a183103472731149f342b46c83e3e54fb"
+git-tree-sha1 = "fb32f6d9f583393e2f62fc944b840221db30ead7"
 lazy = true
 libc = "glibc"
 mpi = "mpich"
 os = "linux"
 
     [[PTSCOTCH.download]]
-    sha256 = "fdb82ce6d0004da3ca364e978a3df2cdb2256ead16d798fe388ac2e168de416a"
-    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.4+1/PTSCOTCH.v6.1.4.armv7l-linux-gnueabihf-mpi+mpich.tar.gz"
+    sha256 = "f99d5b7744bb3198e8d74b99c26975035e067c8b60691c36987386133e070e4d"
+    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.5+0/PTSCOTCH.v6.1.5.armv7l-linux-gnueabihf-mpi+mpich.tar.gz"
 [[PTSCOTCH]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "ad7ec45b5029aabbce81ef651ae407d881b7b2c4"
+git-tree-sha1 = "7eb1889b140c4c31b4ec57cfaf20a8168c6aa820"
 lazy = true
 libc = "glibc"
 mpi = "mpitrampoline"
 os = "linux"
 
     [[PTSCOTCH.download]]
-    sha256 = "2793e082c879dd96ddeaf33eb69b51545d7195afdf134f2704cb19c7a8a67f26"
-    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.4+1/PTSCOTCH.v6.1.4.armv7l-linux-gnueabihf-mpi+mpitrampoline.tar.gz"
+    sha256 = "a88e0f7f0d7861da0e1f308696d20c2edbd852bcf1837bce78f20a1735d0eac3"
+    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.5+0/PTSCOTCH.v6.1.5.armv7l-linux-gnueabihf-mpi+mpitrampoline.tar.gz"
 [[PTSCOTCH]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "fe7a525e3318ca3ab0722fb291b8ac1fe95d435a"
+git-tree-sha1 = "6bc3b9295ad4d35f8c973745e6c94e6656d777d7"
+lazy = true
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[PTSCOTCH.download]]
+    sha256 = "15773332532d07873a5483a6fabdc198f050a2e3579f7527a3eeee3ed2dcdd71"
+    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.5+0/PTSCOTCH.v6.1.5.armv7l-linux-gnueabihf-mpi+openmpi.tar.gz"
+[[PTSCOTCH]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "25bab0e54fc3311190d31208469158a45056778a"
 lazy = true
 libc = "musl"
 mpi = "mpich"
 os = "linux"
 
     [[PTSCOTCH.download]]
-    sha256 = "273c3467dcd4f9f39742421b845c6b0f0083cb43d8671325a5abb21e2c5e428d"
-    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.4+1/PTSCOTCH.v6.1.4.armv7l-linux-musleabihf-mpi+mpich.tar.gz"
+    sha256 = "44fdc215b0648ac4c0c841ab572479194dcafb0cfe7d9933f9bcc103b45dd1ec"
+    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.5+0/PTSCOTCH.v6.1.5.armv7l-linux-musleabihf-mpi+mpich.tar.gz"
+[[PTSCOTCH]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "7dbb274fa001f2d717d0c00e101bdc7ea81a8d94"
+lazy = true
+libc = "musl"
+mpi = "openmpi"
+os = "linux"
+
+    [[PTSCOTCH.download]]
+    sha256 = "be2aef0e4fc2bd0b0d282e7611d88ca17ab7f4c48ae48faf766efcc8ef1c2340"
+    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.5+0/PTSCOTCH.v6.1.5.armv7l-linux-musleabihf-mpi+openmpi.tar.gz"
 [[PTSCOTCH]]
 arch = "i686"
-git-tree-sha1 = "0dd98137e0e94be2d3c95840fa3c5938ca0ba62d"
+git-tree-sha1 = "cf6a59b071c58f6e2ff865aa6f4eca1d7dc69203"
 lazy = true
 libc = "glibc"
 mpi = "mpich"
 os = "linux"
 
     [[PTSCOTCH.download]]
-    sha256 = "d5c90525654cecbc800cd3c4f0255c011e0a27ec6f0769f5d22de1fade822082"
-    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.4+1/PTSCOTCH.v6.1.4.i686-linux-gnu-mpi+mpich.tar.gz"
+    sha256 = "26ef640fc057483794896eb7393a09d0b25714d356f50f74066fde4ace11a8a9"
+    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.5+0/PTSCOTCH.v6.1.5.i686-linux-gnu-mpi+mpich.tar.gz"
 [[PTSCOTCH]]
 arch = "i686"
-git-tree-sha1 = "5a075844c043d732893953210d1bad98c4e0b26b"
+git-tree-sha1 = "87ee1ac43e21793ee9e7bcda48779b47603b4fb9"
 lazy = true
 libc = "glibc"
 mpi = "mpitrampoline"
 os = "linux"
 
     [[PTSCOTCH.download]]
-    sha256 = "0dfb77dbfc6e5ea781e6bda2729e36449207656b0bfb72c2b3201c2b64b2dde3"
-    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.4+1/PTSCOTCH.v6.1.4.i686-linux-gnu-mpi+mpitrampoline.tar.gz"
+    sha256 = "6fc4787d773770235b87bddf15634340c58b5e4bcd005ae8d23fd9bd3047bfa4"
+    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.5+0/PTSCOTCH.v6.1.5.i686-linux-gnu-mpi+mpitrampoline.tar.gz"
 [[PTSCOTCH]]
 arch = "i686"
-git-tree-sha1 = "63ad45b6c1a6d1643c18d1b93c9274b258f827d9"
+git-tree-sha1 = "5f2c97176f6333d108e75aab29340cf2839248a9"
+lazy = true
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[PTSCOTCH.download]]
+    sha256 = "e160ade756ccb76b6448815801b8f02eb1c9be8708554d8449c27a407273580a"
+    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.5+0/PTSCOTCH.v6.1.5.i686-linux-gnu-mpi+openmpi.tar.gz"
+[[PTSCOTCH]]
+arch = "i686"
+git-tree-sha1 = "465106651368f8777678ce0f2b9eebcd67c3b0b4"
 lazy = true
 libc = "musl"
 mpi = "mpich"
 os = "linux"
 
     [[PTSCOTCH.download]]
-    sha256 = "d1976cfccc3c0d123c2b7b57c0a6792e16f432d911d7ac41e4edfb9d494121b9"
-    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.4+1/PTSCOTCH.v6.1.4.i686-linux-musl-mpi+mpich.tar.gz"
+    sha256 = "176e22d312890868d85bb30fc0e67a7e29eec3e81dc3fcd3aee92260834e21d6"
+    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.5+0/PTSCOTCH.v6.1.5.i686-linux-musl-mpi+mpich.tar.gz"
+[[PTSCOTCH]]
+arch = "i686"
+git-tree-sha1 = "e63a789035f27aa4c26245fc482b5c91f94fefd7"
+lazy = true
+libc = "musl"
+mpi = "openmpi"
+os = "linux"
+
+    [[PTSCOTCH.download]]
+    sha256 = "2e9b3c6a11bad39b152262205f334f103b6f6d659ba414d1dfe1dd4bd4be3752"
+    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.5+0/PTSCOTCH.v6.1.5.i686-linux-musl-mpi+openmpi.tar.gz"
 [[PTSCOTCH]]
 arch = "powerpc64le"
-git-tree-sha1 = "1128a025d200fda9a099eb76ed6035cf4645a35e"
+git-tree-sha1 = "96d15854a3f9cec76916c2d9cd60fbe716ddd907"
 lazy = true
 libc = "glibc"
 mpi = "mpich"
 os = "linux"
 
     [[PTSCOTCH.download]]
-    sha256 = "ffaba047872c769f34f23db61497ee0fd910147f5e2477e3f686424b56aa00d2"
-    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.4+1/PTSCOTCH.v6.1.4.powerpc64le-linux-gnu-mpi+mpich.tar.gz"
+    sha256 = "46f2b7001fbb211380ea834479097cdf3cc17766cce28db1ecd51f600fa1b8c0"
+    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.5+0/PTSCOTCH.v6.1.5.powerpc64le-linux-gnu-mpi+mpich.tar.gz"
 [[PTSCOTCH]]
 arch = "powerpc64le"
-git-tree-sha1 = "e390ff8535d010c522765b079a64c32bd94bc785"
+git-tree-sha1 = "a332cfe6488fd3351fb6b5e16e1003d730b50e49"
 lazy = true
 libc = "glibc"
 mpi = "mpitrampoline"
 os = "linux"
 
     [[PTSCOTCH.download]]
-    sha256 = "2ade764da8e7ea707e49eade1815e8737acfdc737d33bbbf00f98d625de0ec75"
-    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.4+1/PTSCOTCH.v6.1.4.powerpc64le-linux-gnu-mpi+mpitrampoline.tar.gz"
+    sha256 = "19319fa6387b08f8d5e1d09caf8bb2d5479f8210a1a35ca866919254cbb0138b"
+    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.5+0/PTSCOTCH.v6.1.5.powerpc64le-linux-gnu-mpi+mpitrampoline.tar.gz"
+[[PTSCOTCH]]
+arch = "powerpc64le"
+git-tree-sha1 = "62fc57c81ebacb0af5968e819a9b34317302c3af"
+lazy = true
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[PTSCOTCH.download]]
+    sha256 = "08d3d2d8e927b2051e84674339ebddea2164d8e06bd34e93cae6f49ce00f5764"
+    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.5+0/PTSCOTCH.v6.1.5.powerpc64le-linux-gnu-mpi+openmpi.tar.gz"
 [[PTSCOTCH]]
 arch = "x86_64"
-git-tree-sha1 = "e8fca3adafc477da2ac7793fff7aa2cb00650441"
+git-tree-sha1 = "4a18ec2b62573dda7d109dab19bbbb49d280c90f"
 lazy = true
 mpi = "mpich"
 os = "macos"
 
     [[PTSCOTCH.download]]
-    sha256 = "3bde250aee629d72d54aa3d4b5c2b27a4cb35e21313a4e92991728a91063a54f"
-    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.4+1/PTSCOTCH.v6.1.4.x86_64-apple-darwin-mpi+mpich.tar.gz"
+    sha256 = "09c50b15d811027f3d2272821808e211af07a6ecb07c0c61e4c17f39bae79b19"
+    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.5+0/PTSCOTCH.v6.1.5.x86_64-apple-darwin-mpi+mpich.tar.gz"
 [[PTSCOTCH]]
 arch = "x86_64"
-git-tree-sha1 = "1455857d82ce8026a9e21cd0e4cee017576a10cf"
+git-tree-sha1 = "48c43f1fdce359db6343ba8489f192aee7084b91"
 lazy = true
 mpi = "mpitrampoline"
 os = "macos"
 
     [[PTSCOTCH.download]]
-    sha256 = "9a9a57e6776341bde92a3d0e58b4448eac06140dbe3b9dbc6a59de026b1f8483"
-    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.4+1/PTSCOTCH.v6.1.4.x86_64-apple-darwin-mpi+mpitrampoline.tar.gz"
+    sha256 = "d2468962542b9f85b87abd9fc877196117e332b364289e9ad5acd69ba8661737"
+    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.5+0/PTSCOTCH.v6.1.5.x86_64-apple-darwin-mpi+mpitrampoline.tar.gz"
 [[PTSCOTCH]]
 arch = "x86_64"
-git-tree-sha1 = "ef4f46a9a714486d12ce836ea8f542c2660bae79"
+git-tree-sha1 = "045c0d179b4c18c23ea1a37476be53690335783d"
+lazy = true
+mpi = "openmpi"
+os = "macos"
+
+    [[PTSCOTCH.download]]
+    sha256 = "bcdedd2f332e0d0466762918be190babd53e938dd260b0fb198374f08f5e4968"
+    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.5+0/PTSCOTCH.v6.1.5.x86_64-apple-darwin-mpi+openmpi.tar.gz"
+[[PTSCOTCH]]
+arch = "x86_64"
+git-tree-sha1 = "bda5ed27ffd6e3a24eb7458ee2d1f9ef170dac31"
 lazy = true
 libc = "glibc"
 mpi = "mpich"
 os = "linux"
 
     [[PTSCOTCH.download]]
-    sha256 = "1f2bea0339380f037c040e6c782c622987c1af61e24f078bcb8b9cc8a85a9e75"
-    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.4+1/PTSCOTCH.v6.1.4.x86_64-linux-gnu-mpi+mpich.tar.gz"
+    sha256 = "dc2f58c8f1d0fbc8c9c68818d93bf11da2f1aa321caa428170d59416e5e219ba"
+    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.5+0/PTSCOTCH.v6.1.5.x86_64-linux-gnu-mpi+mpich.tar.gz"
 [[PTSCOTCH]]
 arch = "x86_64"
-git-tree-sha1 = "20ea44f194680290cd2748ef0eb650047225af3e"
+git-tree-sha1 = "1f5bf8fc9552e6d7285e901b5029c286e53310d9"
 lazy = true
 libc = "glibc"
 mpi = "mpitrampoline"
 os = "linux"
 
     [[PTSCOTCH.download]]
-    sha256 = "61cabc4664190da6ba6077bd4cb2d1496ff93deb11d2f0f6f5b2b7752439b739"
-    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.4+1/PTSCOTCH.v6.1.4.x86_64-linux-gnu-mpi+mpitrampoline.tar.gz"
+    sha256 = "fc77b829d9b61e506bedbc3a29de4aea89698bc5fb281dad359ae5611b25261e"
+    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.5+0/PTSCOTCH.v6.1.5.x86_64-linux-gnu-mpi+mpitrampoline.tar.gz"
 [[PTSCOTCH]]
 arch = "x86_64"
-git-tree-sha1 = "89b94f20325e3f3256fed027ce569cdb0aef3345"
+git-tree-sha1 = "5da0a47abe2780bf788c7213b9660864e2512cf4"
+lazy = true
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[PTSCOTCH.download]]
+    sha256 = "6fc0d6ce6983f8d12cf51a517a8f1da5c87d36fa748d10ff3d9fcff3cf122c46"
+    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.5+0/PTSCOTCH.v6.1.5.x86_64-linux-gnu-mpi+openmpi.tar.gz"
+[[PTSCOTCH]]
+arch = "x86_64"
+git-tree-sha1 = "c7bb406602ea98a0e2a84d93050e03cc6786f737"
 lazy = true
 libc = "musl"
 mpi = "mpich"
 os = "linux"
 
     [[PTSCOTCH.download]]
-    sha256 = "adcd39323f218fc3ba701168c172bd132de160b1f5ff3c9037e812b718855f40"
-    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.4+1/PTSCOTCH.v6.1.4.x86_64-linux-musl-mpi+mpich.tar.gz"
+    sha256 = "536b112760bf6b1608ae49326da60619c25b925466e78a8d71f9097c38837730"
+    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.5+0/PTSCOTCH.v6.1.5.x86_64-linux-musl-mpi+mpich.tar.gz"
 [[PTSCOTCH]]
 arch = "x86_64"
-git-tree-sha1 = "67c60f6859558d63cea49728228833c5553526aa"
+git-tree-sha1 = "85c0ab42f02efd3741b7663668b98e7f8d9b0cbe"
+lazy = true
+libc = "musl"
+mpi = "openmpi"
+os = "linux"
+
+    [[PTSCOTCH.download]]
+    sha256 = "19a2c59ec547571fa065e45ca9703231d36db731aba14f6ae7d4a98387caa86c"
+    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.5+0/PTSCOTCH.v6.1.5.x86_64-linux-musl-mpi+openmpi.tar.gz"
+[[PTSCOTCH]]
+arch = "x86_64"
+git-tree-sha1 = "553275822cdc9fb7dc8863b1b580196652dad6f1"
 lazy = true
 mpi = "mpich"
 os = "freebsd"
 
     [[PTSCOTCH.download]]
-    sha256 = "ad2b4ccbe2a6431f793edb191bf3648c595f8fcb05fd208eb5b59cd8fcca5284"
-    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.4+1/PTSCOTCH.v6.1.4.x86_64-unknown-freebsd-mpi+mpich.tar.gz"
+    sha256 = "a67eab5c6a70f5b97b20d72aa9c5066811c9ed2f3621b2fd2a74e11efc4050f9"
+    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.5+0/PTSCOTCH.v6.1.5.x86_64-unknown-freebsd-mpi+mpich.tar.gz"
+[[PTSCOTCH]]
+arch = "x86_64"
+git-tree-sha1 = "337115333b1c2d4a799742ae797e2a271da70809"
+lazy = true
+mpi = "openmpi"
+os = "freebsd"
+
+    [[PTSCOTCH.download]]
+    sha256 = "389e8bc8dc237271d43b28763d79963166310a4cc66517c085e66fc6be50ba7d"
+    url = "https://github.com/JuliaBinaryWrappers/PTSCOTCH_jll.jl/releases/download/PTSCOTCH-v6.1.5+0/PTSCOTCH.v6.1.5.x86_64-unknown-freebsd-mpi+openmpi.tar.gz"
